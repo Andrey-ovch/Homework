@@ -1,4 +1,5 @@
-﻿int a = new Random().Next(-10, 10);
+// Нахождение и вывод max и min значения
+int a = new Random().Next(-10, 10);
 int b = new Random().Next(-15, 35);
 int max = a;
 int min = b;
