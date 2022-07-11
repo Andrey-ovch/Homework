@@ -1,0 +1,15 @@
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.csproj.AssemblyReference.cache
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.AssemblyInfoInputs.cache
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.AssemblyInfo.cs
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.csproj.CoreCompileInputs.cache
+C:\Andrey_obuchenie\DZ_C#\Dz3\bin\Debug\net6.0\Dz3.exe
+C:\Andrey_obuchenie\DZ_C#\Dz3\bin\Debug\net6.0\Dz3.deps.json
+C:\Andrey_obuchenie\DZ_C#\Dz3\bin\Debug\net6.0\Dz3.runtimeconfig.json
+C:\Andrey_obuchenie\DZ_C#\Dz3\bin\Debug\net6.0\Dz3.dll
+C:\Andrey_obuchenie\DZ_C#\Dz3\bin\Debug\net6.0\Dz3.pdb
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.dll
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\refint\Dz3.dll
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.pdb
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\Dz3.genruntimeconfig.cache
+C:\Andrey_obuchenie\DZ_C#\Dz3\obj\Debug\net6.0\ref\Dz3.dll
