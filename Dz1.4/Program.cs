@@ -1,4 +1,4 @@
-﻿int a = new Random().Next(5, 12);
+﻿int a = new Random().Next(-1, 12);
 Console.WriteLine($"День недели: {a}");
 
  if(a < 1 | a > 7)
