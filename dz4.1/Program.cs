@@ -10,10 +10,14 @@ void Print(int result)
 
 int Str(int a, int b)
 {
-    Console.WriteLine($"{a}, {b}");
     int result = Convert.ToInt32(Math.Pow(a, b));
     return result;
 }
 
-int res = Str(6, 3);
-Print(res);
+Console.Write($"Введите число A: ");
+int a = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Введите число B: ");
+int b = Convert.ToInt32(Console.ReadLine());
+
+int Result = Str(a, b);
+Print(Result);
