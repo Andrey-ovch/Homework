@@ -1,84 +1,42 @@
-﻿// Реализовать программу поворота матрицы
+﻿// Задача 47. Задайте двумерный массив размером m×n, заполненный случайными вещественными числами.
 
-void Print(int[,] array)                         // метод печати массива
+// m = 3, n = 4.
+
+// 0,5 7 -2 -0,2
+// 1 -3,3 8 -9,9
+// 8 7,8 -7,1 9
+
+
+void Print(double[,] array)     // Метод печати массива
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            Console.Write($"{array[i, j]} ");
+            Console.Write($"{array[i,j],5:f2} ");
         }
         Console.WriteLine();
     }
 }
 
-void FillArray(int[,] array)                    // метод заполнения массива
+void FillArray(double[,] array)   // Метод заполнения массива
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(1, 10);
+            array[i,j] = new Random().NextDouble()*10-2;
         }
     }
 }
 
-void TurnArray90(int[,] array)                  // метод поворота массива на 90*
-{
-    int[,] newArray = new int[array.GetLength(0), array.GetLength(1)];
-    int s = array.GetLength(0);
-    int b = array.GetLength(1);
-    for (int i = 0; i < s; i++)
-    {
-        for (int j = 0, c = s - 1; j < b; j++, --c)
-        {
-            newArray[i, j] = array[c, i];
-            Console.Write($"{newArray[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
-
-void TurnArray180(int[,] array)                 // метод поворота массива на 180*
-{
-    int[,] newArray = new int[array.GetLength(0), array.GetLength(1)];
-    int s = array.GetLength(0);
-    int b = array.GetLength(1);
-    for (int i = 0, c = s - 1; i < s; i++, --c)
-    {
-        for (int j = 0, x = b - 1; j < b; j++, --x)
-        {
-            newArray[i, j] = array[c, x];
-            Console.Write($"{newArray[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
-
-void TurnArray270(int[,] array)                 // метод поаорота массива на 270*
-{
-    int[,] newArray = new int[array.GetLength(0), array.GetLength(1)];
-    int s = array.GetLength(0);
-    int b = array.GetLength(1);
-    for (int i = 0, c = s - 1; i < s; i++, --c)
-    {
-        for (int j = 0; j < b; j++)
-        {
-            newArray[i, j] = array[j, c];
-            Console.Write($"{newArray[i, j]} ");
-        }
-        Console.WriteLine();
-    }
-}
-
-int[,] Array = new int[4, 4];
-FillArray(Array);
-Print(Array);
-Console.WriteLine();
-// TurnArray90(Array);
-// TurnArray180(Array);
-TurnArray270(Array);
+Console.Write($"Введите число строк: ");
+int row = Convert.ToInt32(Console.ReadLine());
+Console.Write($"Введите число столбцов: ");
+int col = Convert.ToInt32(Console.ReadLine());
 
 
-
+double[,] s = new double[row,col];
+FillArray(s);
+Print(s); 
 
